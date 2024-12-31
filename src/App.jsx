@@ -1,9 +1,9 @@
 import './App.css';
-import Useeffects from './useeffects';
+import Userefs from './userefs';
 function App() {
   return (
     <>
-      <Useeffects />
+      <Userefs />
     </>
   );
 }
