@@ -2,6 +2,7 @@ import './App.css';
 import Home from './home'
 import Contact from './contactus';
 import Aboutus from './aboutus';
+import List from './list';
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 function App() {
@@ -40,6 +41,8 @@ function App() {
           <p>&copy; 2024 MyWebsite. All rights reserved.</p>
         </footer>
       </Router>
+
+      <List/>
     </>
   );
 }
